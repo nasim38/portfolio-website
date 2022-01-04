@@ -1,5 +1,6 @@
 body {
   font-family: "Arimo", sans-serif;
+  margin: 0;
 }
 .orange-color {
   color: orangered;
@@ -7,8 +8,15 @@ body {
 h1 {
   font-size: 60px;
 }
-.intro-section {
+section {
   display: flex;
+  padding-bottom: 100px;
+}
+.intro-section {
+  background-image: linear-gradient(lightblue, lightgreen);
+}
+.dream-big {
+  background-image: linear-gradient(salmon, lightblue);
 }
 .half-section {
   width: 50%;
@@ -16,7 +24,7 @@ h1 {
   margin: 20px;
 }
 .half-section img {
-  width: 50%;
+  width: 80%;
 }
 .link-button {
   text-decoration: none;
