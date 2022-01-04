@@ -7,3 +7,21 @@ body {
 h1 {
   font-size: 60px;
 }
+.intro-section {
+  display: flex;
+}
+.half-section {
+  width: 50%;
+  padding: 20px 30px;
+  margin: 20px;
+}
+.half-section img {
+  width: 50%;
+}
+.link-button {
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(orange, tomato);
+  padding: 10px 30px;
+  border-radius: 5px;
+}
