@@ -9,19 +9,22 @@ h1 {
   font-size: 60px;
 }
 section {
-  display: flex;
   padding-bottom: 100px;
+}
+.flexible-section {
+  display: flex;
 }
 .intro-section {
   background-image: linear-gradient(lightblue, lightgreen);
 }
-.dream-big {
+.dream-big-section {
   background-image: linear-gradient(salmon, lightblue);
 }
 .half-section {
   width: 50%;
   padding: 20px 30px;
   margin: 20px;
+  text-align: justify;
 }
 .half-section img {
   width: 80%;
